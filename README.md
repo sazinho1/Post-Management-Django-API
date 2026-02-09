@@ -18,20 +18,19 @@ To run this project locally, you will need:
 Follow the steps below to clone and configure the development environment:
 
 1. **Clone the repository:**
-   ```shell
+```shell
    git clone [https://github.com/YOUR_USERNAME/Api-Django-Treino.git](https://github.com/YOUR_USERNAME/Api-Django-Treino.git)
    cd Api-Django-Treino
 ```
 
-2. **Create and activate a virtual environment:**
-
-    ```shell
+2. **Running the Server:**
+```shell
     # Windows
     python -m venv .venv
     .venv\Scripts\activate
 ```
 
-    ```shell
+```shell
     # Linux/Mac
     python3 -m venv .venv
     source .venv/bin/activate
@@ -39,12 +38,12 @@ Follow the steps below to clone and configure the development environment:
 
 3. **Install Dependencies:**
 
-    ```shell
+```shell
     pip install -r requirements.txt
 ```
 
 4. **Run migrations (Database Setup):**
-    ```shell
+```shell
     python manage.py migrate
 ```
 
@@ -67,7 +66,7 @@ Follow the steps below to clone and configure the development environment:
 
 # Useful Resources:
 - [Django Documentation](https://docs.djangoproject.com/en/6.0/)
-- [Django REST Framework](https://www.django-rest-framework.org/)`
+- [Django REST Framework](https://www.django-rest-framework.org/)
 
 # 📦 Project Structure
 - api_root/: Global project settings (settings, main urls).
