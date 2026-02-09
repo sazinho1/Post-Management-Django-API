@@ -3,7 +3,7 @@ from django.db import models
 class Post(models.Model):
     username = models.CharField(max_length=100, default='')
     title = models.CharField(max_length=100, default='')
-    content = models.CharField( default='')
+    content = models.TextField( default='')
     created_at = models.DateTimeField(auto_now_add=True) 
     updated_at = models.DateTimeField(auto_now=True) 
 
